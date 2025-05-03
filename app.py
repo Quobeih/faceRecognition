@@ -65,6 +65,6 @@ if uploaded_file is not None:
     st.success(f"🎯 Predicted: {predicted_class} ({confidence_score:.2f}% confidence)")
 
     st.write("Top 3 Predictions:")
-    for i, (label, score) in enumerate(top_preds, 1):
-        st.write(f"{i}. {label} - {score:.2f}%")
+    '''for i, (label, score) in enumerate(top_preds, 1):
+        st.write(f"{i}. {label} - {score:.2f}%")'''
 
